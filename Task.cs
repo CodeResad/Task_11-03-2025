@@ -94,7 +94,7 @@
 // {
 //     for (int j = i + 1; j < arr.Length; j++)
 //     {
-//         if (arr[i] == arr[j])
+//         if (arr[i] == arr[j] && indices[arr[i]] != true)
 //         {
 //             indices[arr[i]] = true;
 //             break;
